@@ -5,8 +5,8 @@
 - This is an array: `[1, 2, 3]`. Map over it to create another array containing: `[2, 4, 6]`
 
 ```jsx
-[1, 2, 3].map(
-  // Your code here
+const array=[1, 2, 3].map(
+  const arrey.map ()=> {2,4,6}
 );
 ```
 
@@ -16,20 +16,26 @@
   find and fix them?
 
 ```jsx
-function IceCreamShowcase() {
+function IceCreamShowcase() => {
   const iceCreamFlavors [
-    "Rockmelon and Lime", "Cookies & Cream", "Strawberry Cookies & Cream",
-    "Hokey Pokey", 'Vanilla', 'Lime and Coconut';
+    "Rockmelon and Lime",
+     "Cookies & Cream",
+     "Strawberry Cookies & Cream",
+    "Hokey Pokey", 
+    "Vanilla",
+    "Lime and Coconut",
   ];
 
   return (
-    <h1>Ice Cream!
+    <h1>Ice Cream!</h1>
 
+    <div>
     <ul>
-    iceCreamFlavors.map(() => {
+    {iceCreamFlavors.map(() => {
       <li>flavor<li>
-    });
+    })};
     </ul>
+    </div>
   )
 }
 ```
@@ -37,3 +43,5 @@ function IceCreamShowcase() {
 ## 3
 
 - Name something you took away from Dan Walker's chat this morning
+
+His proud to be Maori
