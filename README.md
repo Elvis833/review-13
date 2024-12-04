@@ -17,19 +17,19 @@ const array=[1, 2, 3].map(
 
 ```jsx
 function IceCreamShowcase() => {
-  const iceCreamFlavors [
+  const iceCreamFlavors =[
     "Rockmelon and Lime",
-     "Cookies & Cream",
-     "Strawberry Cookies & Cream",
+    "Cookies & Cream",
+    "Strawberry Cookies & Cream",
     "Hokey Pokey", 
     "Vanilla",
     "Lime and Coconut",
   ];
 
   return (
+    <div>
     <h1>Ice Cream!</h1>
 
-    <div>
     <ul>
     {iceCreamFlavors.map(() => {
       <li>flavor<li>
@@ -45,3 +45,4 @@ function IceCreamShowcase() => {
 - Name something you took away from Dan Walker's chat this morning
 
 His proud to be Maori
+& Mana Wahine
